@@ -16,13 +16,15 @@
 .project-card {
   background: #131212;
   padding: 1.2rem 1rem;
-  box-shadow: 10px 10px rgba(43, 42, 117, 0.3);
+  /* box-shadow: 10px 10px rgba(43, 42, 117, 0.3); */
+  box-shadow: 10px 10px rgba(112, 112, 153, 0.3);
   border-radius: 5px;
 }
 
-.project-card:hover {
-  border: 1px solid rgba(29, 28, 113, 0.3);
-}
+/* .project-card:hover {
+  /* border: 1px solid rgba(29, 28, 113, 0.3); */
+/* box-shadow: 20px 20px rgba(128, 127, 204, 0.3); */
+/* } */
 
 .project-card img {
   width: 100%;
@@ -31,6 +33,7 @@
   color: #fff;
   padding: 1rem 0;
   font-weight: 500;
+  margin: 1.5rem auto;
 }
 
 .pro-details p {
@@ -39,6 +42,7 @@
   text-align: justify;
   font-weight: 400;
   line-height: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .pro-btns {

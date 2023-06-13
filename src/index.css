@@ -1,14 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700&display=swap"); */
+
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Syne", sans-serif;
 }
 
 body {
@@ -25,6 +29,10 @@ p,
 a {
   color: rgb(162, 158, 158);
   text-decoration: none;
+}
+
+p {
+  display: block;
 }
 
 ul {
@@ -64,6 +72,10 @@ ul {
 .btn:hover {
   background-color: rgba(34, 32, 112, 0.5);
   color: #fff;
-  transition: 0.3s;
-  border: 1px solid #fff;
+  /* box-shadow: 5px 5px rgba(94, 91, 189, 0.5); */
+  box-shadow: 5px 5px rgba(112, 112, 153, 0.3);
+
+  /* transition: 0.3s; */
+
+  /* border: 1px solid #fff; */
 }
