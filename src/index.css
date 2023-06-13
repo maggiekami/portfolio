@@ -1,21 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 body {
   background: #000;
 }
 
-h1,
+h1 {
+  color: #fff;
+}
+
+/* h1, */
 h4,
 p,
 a {
-  color: #fff;
+  color: rgb(162, 158, 158);
   text-decoration: none;
 }
 
@@ -27,9 +35,13 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
-  color: #222;
-  border: 1px solid #fff;
+  /* background: rgba(98, 10, 100, 0.5); */
+  background: #000;
+  color: #fff;
+  /* border: 1px solid #fff; */
+  border: 0.5px solid white;
+
+  border-radius: 0.4rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -40,8 +52,18 @@ ul {
   color: #fff;
 }
 
+.btn-projects {
+  font-weight: 400;
+  background: rgba(9, 8, 78, 0.5);
+  border: 1px solid rgba(7, 6, 117, 0.5);
+  color: rgb(162, 158, 158);
+
+  /* border: 1px solid #f0f0f0; */
+}
+
 .btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background-color: rgba(34, 32, 112, 0.5);
   color: #fff;
   transition: 0.3s;
+  border: 1px solid #fff;
 }

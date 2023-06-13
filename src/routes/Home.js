@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-// import HeroImg from "../components/HeroImg";
+import HeroImg from "../components/HeroImg";
 // import Work from "../components/Work";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      {/* <HeroImg /> */}
+      <HeroImg />
       {/* <Work /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
