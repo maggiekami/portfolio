@@ -23,7 +23,7 @@ h1 {
   color: #fff;
 }
 
-/* h1, */
+h2,
 h4,
 p,
 a {
@@ -63,7 +63,9 @@ ul {
 .btn-projects {
   font-weight: 400;
   background: rgba(9, 8, 78, 0.5);
-  border: 1px solid rgba(7, 6, 117, 0.5);
+  /* border: 1px solid rgba(7, 6, 117, 0.5); */
+  /* border: 1px solid rgba(99, 99, 137, 0.168); */
+  border: 1.5px solid black;
   color: rgb(162, 158, 158);
 
   /* border: 1px solid #f0f0f0; */
@@ -71,9 +73,11 @@ ul {
 
 .btn:hover {
   background-color: rgba(34, 32, 112, 0.5);
+  border: transparent;
   color: #fff;
   /* box-shadow: 5px 5px rgba(94, 91, 189, 0.5); */
-  box-shadow: 5px 5px rgba(112, 112, 153, 0.3);
+  /* box-shadow: 5px 5px rgba(112, 112, 153, 0.3); */
+  box-shadow: 5px 5px rgba(89, 89, 176, 0.166);
 
   /* transition: 0.3s; */
 

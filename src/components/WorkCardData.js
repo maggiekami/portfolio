@@ -18,7 +18,7 @@ const ProjectCardData = [
   {
     imgsrc: project3,
     title: "Bandsite",
-    text: "Multi-page dynamic website for a music band. HTML, Sass (BEM), JavaScript. Responsive design (Flexbox). API HTTP requests (Axios, Postman).",
+    text: "Multi-page dynamic website. HTML, Sass (BEM), JavaScript. Responsive design (Flexbox). API HTTP requests (Axios, Postman).",
     view: "live",
   },
 ];
